@@ -16,7 +16,8 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'Massage Finder'),
+    'email' => env('APP_EMAIL', 'info@massagefinder.com'),
 
     /*
     |--------------------------------------------------------------------------
@@ -55,7 +56,8 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'url' => env('APP_URL', 'http://massagefinder.local'),
+    'domain' => env('APP_DOMAIN', 'massagefinder.local'),
 
     'asset_url' => env('ASSET_URL'),
 
